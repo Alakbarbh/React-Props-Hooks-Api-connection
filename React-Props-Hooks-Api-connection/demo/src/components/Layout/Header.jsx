@@ -1,14 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { Nav, NavItem, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import '../../assets/css/home/home.scss';
+import Logo from '../../assets/img/logo.png'
 
 
 function Header() {
     return (
-        <div>
+        
             <div>
-                <Nav>
-                    <NavItem className='nav-item'>
+                <Nav className='nav-item'>
+                    <img src={Logo}/>
+                    <NavItem>
                         <NavLink className="nav-link" to="/">
                             Home
                         </NavLink>
@@ -25,7 +28,7 @@ function Header() {
                     </NavItem>
                 </Nav>
             </div>
-        </div>
+        
 
 
 

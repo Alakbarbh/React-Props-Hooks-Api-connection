@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/home/Home.scss'
+import '../assets/css/home/home.scss'
 import Main from '../components/Main/Main'
 
 

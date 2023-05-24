@@ -23,7 +23,7 @@ function Employees() {
     <div className='container my-4'>
       <AddEmploye hide={hide} open={open} />
       <h3 className='text-center mb-3'>Employees</h3>
-      <Button onClick={() => setOpen(true)} color="primary" outline>Create</Button>
+      <Button onClick={() => setOpen(true)} color="success">Create</Button>
       <Table>
         <thead>
           <tr>

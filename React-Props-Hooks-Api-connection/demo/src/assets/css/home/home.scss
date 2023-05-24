@@ -1,0 +1,14 @@
+.nav-link {
+    color: white !important;
+    font-size: 24px !important;
+}
+
+.nav-item {
+    background-color: black;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
